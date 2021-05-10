@@ -28,14 +28,14 @@
     <main class="content">
       <!-- section describing the main problem with education -->
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">The main problem with education</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. We often just end up drilling specific exercises and mindlessly memorizing information so that when exam time comes around, we pass the test. But once the test is over, that information has outlived its usefulness, and there's no guarantee that information will be retained. In the end, we're really just learning how to pass our tests.</p>
             <p class="two-columns__paragraph"><span class="two-columns__span-accent">Here's the real question:</span> does this approach of repetition and memorization help us truly understand the subject material? The academic consensus nowadays is that it doesn't. In fact, what's more important than any individual topic is knowing how to study, but for some reason, this point is often overlooked. So, what can we do to remedy this?</p>
             <p class="two-columns__paragraph">Well, there are various techniques and exercises that can be applied to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of effective learning.</p>
-          </div>  
-        </div>
+          </div>
+        </article>
       </section>
 
       <!-- section listing out some facts and figures on learning and the brain -->
@@ -133,21 +133,21 @@
             <p class="table__text table__text_theme_dark">Emphasize quantity and speed</p>
           </li>
         </ul>
-        <img class="kaufman__triangle" src="images/kaufman-triangle.svg" alt="A big blue triangle, over which Josh Kaufman claims ownership">
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
 
     <!-- footer section linking to more information about us and to our social media channels -->
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <img class="logo logo_place_footer" src="images/logo_place_footer.png" alt="Website's logo in footer">
           <p class="footer__author">
             &copy; 2021 Shraddha
           </p>
         </div>
-        <div class="footer__column_content_about">
-          <h2 class="footer__column-heading">About Practicum by Yandex</h2>
+        <nav class="footer__column footer__column_content_about" aria-labelledby="primary-navigation">
+          <h2 id="primary-navigation" class="footer__column-heading">About Practicum by Yandex</h2>
           <ul class="footer__list">
             <li>
               <a class="footer__column-link" href="#">Home page</a>
@@ -159,9 +159,9 @@
               <a class="footer__column-link" href="#">Professions</a>
             </li>
           </ul>
-        </div>
-        <div class="footer__column_content_social">
-          <h2 class="footer__column-heading">Social Media</h2>
+        </nav>
+        <nav class="footer__column footer__column_content_social" aria-labelledby="social-channels">
+          <h2 id="social-channels" class="footer__column-heading">Social Media</h2>
           <ul class="footer__list">
             <li>
               <a class="footer__column-link" href="#">
@@ -175,8 +175,8 @@
                 Instagram
               </a>
             </li>
-          </ul>          
-        </div>
+          </ul>
+        </nav>
       </div>
     </footer>
   </div>
