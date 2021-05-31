@@ -6,8 +6,7 @@
   <meta name="keywords" content="HTML, CSS, Learning">
   <meta name="author" content="Shraddha">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Learning how to learn</title>
 </head>
 <body>
@@ -19,10 +18,10 @@
       <h1 class="header__title">Learning How to Learn</h1>
       <p class="header__subtitle">
         The most effective, cutting-edge learning techniques that you can apply to your daily life.
-        <a class="header__link" href="#">Learn more</a>
+        <a class="header__link semi-transparent-link" href="#">Learn more</a>
       </p>
       <img class="header__main-illustration" src="images/header-image.png" alt="Epic ponderer stood on a mountaintop deliberating over the finer points of the modern educational system, while also wondering where that giant blue square came from.">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -36,6 +35,74 @@
             <p class="two-columns__paragraph">Well, there are various techniques and exercises that can be applied to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of effective learning.</p>
           </div>
         </article>
+      </section>
+
+      <!-- section listing out five learning techniques from Barbara Oakley -->
+      <section class="techniques">
+        <h2 class="section-title">Learning Techniques</h2>
+        <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
+        <ul class="cards">
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-attention.png" alt="A book named 101 Essays that will change the way you think by Brinna West">
+            <h3 class="cards__title">Two Ways of Thinking</h3>
+            <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-recall.png" alt="A statue of a person pondering over something">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Improving your ability to remember key bits of information helps to connect different parts of the brain.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-interleaving.png" alt="A pointed arch of a hall supporting each other">
+            <h3 class="cards__title">Interleaving</h3>
+            <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-question.png" alt="A man standing in the middle of the hall with mul  tiple openings">
+            <h3 class="cards__title">Questions</h3>
+            <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-competence.png" alt="A hand with a pile of books">
+            <h3 class="cards__title">Illusion of Competence</h3>
+            <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- section having TED talks videos -->
+      <section class="video">
+        <h2 class="section-title">TED talks</h2>
+        <p class="section-subtitle">For lovers of procrastination</p>
+        <div class="video__iframes">
+          <iframe class="video__iframe"
+                  src="https://www.youtube.com/embed/5MgBikgcWnY" 
+                  title="The first 20 hours - how to learn anything by Josh Kaufman" 
+                  allowfullscreen></iframe>
+          <iframe class="video__iframe" 
+                  src="https://www.youtube.com/embed/arj7oStGLkU" 
+                  title="Inside the mind of a master procrastinator by Tim Urban" 
+                  allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <!-- section stating Barbara Oakley's story -->
+      <section class="oakley">
+        <article class="two-columns">
+          <h2 class="two-columns__brief">Barbara Oakley’s story.</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after school she enlisted in the army, who sent her to learn Russian. After several years of service, during which she rose to the rank of Captain, Barbara left the army and decided to study engineering. In was during this time that she developed her learning methodology as she was forced to reprogram her brain for a different kind of learning. It turns out that when something doesn't come naturally to you, having to work hard to gain the knowledge that other people may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- section discussing the Feynman technique to learn efficiently -->
+      <section class="feynman">
+        <h2 class="feynman__title">The Feynman Technique</h2>
+        <p class="feynman__subtitle">Learn without forgetting</p>
+        <a  class="feynman__link semi-transparent-link" 
+            href="https://fs.blog/2021/02/feynman-learning-technique/"
+            target="_blank">More</a>
       </section>
 
       <!-- section listing out some facts and figures on learning and the brain -->
@@ -80,11 +147,23 @@
         </ul>
       </section>
 
-      <!-- section discussing the Feynman technique to learn efficiently -->
-      <section class="feynman">
-        <h2 class="feynman__title">The Feynman Technique</h2>
-        <p class="feynman__subtitle">Learn without forgetting</p>
-        <a class="feynman__link" href="#">More</a>
+      <!-- section telling about Salman Khan's passion and book - The One World Schoolhouse -->
+      <section class="khan">
+        <article class="khan__container">
+          <p class="khan__author">Salman Khan</p>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <blockquote class="khan__quote">
+            Sal Khan's passion and innovation is transforming learning for millions of students worldwide. The One World Schoolhouse is a must-read for all who are committed to improving education so students everywhere can gain the skills and knowledge to be successful in school, careers and life.
+          </blockquote>
+          <p class="khan__quote-author">George Lucas</p>
+          <p class="khan__quote-author-subline">Filmmaker</p>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="images/khan-book-2.png" alt="A picture of the book The One World Schoolhouse by Salman Khan - founder of the Khan Academy">
+            <a  class="khan__buy-link semi-transparent-link" 
+                href="https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508373" 
+                target="_blank">Buy book</a>
+          </div>
+        </article>
       </section>
 
       <!-- section listing out ten principles of rapid skill acquisition -->
@@ -133,7 +212,42 @@
             <p class="table__text table__text_theme_dark">Emphasize quantity and speed</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
+      </section>
+
+      <!-- section listing useful resources on learning techniques and hacks -->
+      <section class="resources">
+        <h2 class="section-title">Useful resources</h2>
+        <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
+        <ul class="resources__logo-zone">
+          <li>
+            <a  class="semi-transparent-link"
+                href="https://ed.ted.com/search?qs=learning+techniques+and+hacks"
+                target="_blank">
+              <img class="resources__logo" src="./images/logo/resources-tedED.png" alt="tedED's Logo">
+            </a>
+          </li>
+          <li>
+            <a  class="semi-transparent-link"
+                href="https://medium.com/the-innovation/top-learning-hacks-to-learn-more-efficiently-effectively-e076989986bb"  target="_blank">
+              <img class="resources__logo" src="./images/logo/resources-Medium.png" alt="Medium's Logo">
+            </a>
+          </li>
+          <li>
+            <a  class="semi-transparent-link"
+                href="https://www.dezeen.com/"
+                target="_blank">
+              <img class="resources__logo" src="./images/logo/resources-dezeen.png" alt="dezeen's Logo">
+            </a>
+          </li>
+          <li>
+            <a  class="semi-transparent-link"
+                href="https://www.goodreads.com/book/show/49537956-studying-techniques"
+                target="_blank">
+              <img class="resources__logo" src="./images/logo/resources-goodreads.png" alt="goodreads' Logo">
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
 
@@ -150,13 +264,19 @@
           <h2 id="primary-navigation" class="footer__column-heading">About Practicum by Yandex</h2>
           <ul class="footer__list">
             <li>
-              <a class="footer__column-link" href="#">Home page</a>
+              <a  class="footer__column-link semi-transparent-link" 
+                  href="https://practicum.yandex.com/" 
+                  target="_blank">Home page</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">Mission</a>
+              <a  class="footer__column-link semi-transparent-link" 
+                  href="https://practicum.yandex.com/" 
+                  target="_blank">Mission</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">Professions</a>
+              <a  class="footer__column-link semi-transparent-link" 
+                  href="https://practicum.yandex.com/" 
+                  target="_blank">Professions</a>
             </li>
           </ul>
         </nav>
@@ -164,16 +284,16 @@
           <h2 id="social-channels" class="footer__column-heading">Social Media</h2>
           <ul class="footer__list">
             <li>
-              <a class="footer__column-link" href="#">
-                <img class="footer__social-icons" src="images/facebook_white.svg" alt="Facebook Icon">
-                Facebook
-              </a>
+              <a  class="footer__column-link semi-transparent-link" 
+                  href="https://m.me/YPracticum" 
+                  target="_blank">
+                <img class="footer__social-icons" src="images/facebook_white.svg" alt="Facebook Icon">Facebook</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">
-                <img class="footer__social-icons" src="images/instagram_white.svg" alt="Instagram Icon">
-                Instagram
-              </a>
+              <a  class="footer__column-link semi-transparent-link" 
+                  href="https://instagram.com/y_practicum" 
+                  target="_blank">
+                <img class="footer__social-icons" src="images/instagram_white.svg" alt="Instagram Icon">Instagram</a>
             </li>
           </ul>
         </nav>

@@ -1,0 +1,9 @@
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link::after {
+  content: '\2192';
+  padding-left: 5px;
+}
