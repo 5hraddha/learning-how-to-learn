@@ -46,4 +46,6 @@ There are few improvements that I am looking to work upon:
 3. Implementing a navigation to access the different sections of the webpage.
 
 ## Demo
-[Try me](https://5hraddha.github.io/web_project_1/)
+[Try me](https://5hraddha.github.io/web_project_1/)  
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F5hraddha%2Fweb_project_1&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
